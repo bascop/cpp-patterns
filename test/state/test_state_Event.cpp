@@ -3,7 +3,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "test_utils/test_state/test_event/TestEvent.hpp"
+#include "../messages/TestEvent.hpp"
 
 BOOST_AUTO_TEST_SUITE(state_Event_tests)
 

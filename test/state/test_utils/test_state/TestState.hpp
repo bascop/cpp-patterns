@@ -6,7 +6,7 @@
 #include <cpp-patterns/state/ContextState.hpp>
 
 #include "../TestContext.hpp"
-#include "test_event/TestEvent.hpp"
+#include "../../../messages/TestEvent.hpp"
 
 
 class TestState
