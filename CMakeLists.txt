@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(cpp-patterns)
+project(cpp_patterns)
 
 ADD_COMPILE_OPTIONS(-std=c++14 -Wall -Wconversion -Wextra) # TODO : this is dirty
 
