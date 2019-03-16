@@ -36,10 +36,10 @@ namespace patterns {
         protected:
             Context();
 
-            StatePtr currentState;
+            StatePtr currentStatePtr;
 
         private:
-            std::queue<patterns::messages::EventPtr> events;
+            std::queue<patterns::messages::EventPtr> eventPtrs;
         };
 
     }

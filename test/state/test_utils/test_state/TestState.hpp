@@ -6,7 +6,14 @@
 #include <cpp-patterns/state/ContextState.hpp>
 
 #include "../TestContext.hpp"
-#include "../../../messages/TestEvent.hpp"
+#include "../../../messages/test_utils/TestEvent.hpp"
+
+enum TestEventType
+{
+    GO_TO_SECOND_TEST_STATE_EVENT,
+    GO_TO_FIRST_TEST_STATE_EVENT,
+    PREEMPT_EVENTS_EVENT
+};
 
 
 class TestState

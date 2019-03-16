@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(cpp_patterns)
+project(cpp-patterns)
 
 ADD_COMPILE_OPTIONS(-std=c++14 -Wall -Wconversion -Wextra) # TODO : this is dirty
 
@@ -13,7 +13,10 @@ INCLUDE_DIRECTORIES(
 
 file(GLOB_RECURSE
         ${PROJECT_NAME}_HDRS
-        include/${PROJECT_NAME}/cpp-patterns/*.hpp
+        include/${PROJECT_NAME}/cpp-patterns/*.hpp)
+
+file(GLOB_RECURSE
+        ${PROJECT_NAME}_TPPS
         include/${PROJECT_NAME}/cpp-patterns/*.tpp)
 
 file(GLOB_RECURSE
@@ -22,6 +25,7 @@ file(GLOB_RECURSE
 
 add_library(${PROJECT_NAME}_lib SHARED
         ${${PROJECT_NAME}_HDRS}
+        ${${PROJECT_NAME}_TPPS}
         ${${PROJECT_NAME}_SRCS})
 
 target_link_libraries(${PROJECT_NAME}_lib

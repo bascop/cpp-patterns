@@ -11,20 +11,20 @@ namespace patterns {
         template<typename T>
         void Context<T>::setNewCurrentState(const StatePtr &newCurrentStatePtr)
         {
-            if (currentState != nullptr)
+            if (currentStatePtr != nullptr)
             {
-                currentState->exitAction();
+                currentStatePtr->exitAction();
             }
 
-            currentState = newCurrentStatePtr;
-            currentState->entryAction();
+            currentStatePtr = newCurrentStatePtr;
+            currentStatePtr->entryAction();
         }
 
 
         template<typename T>
         void Context<T>::scheduleEvent(const patterns::messages::EventPtr &event)
         {
-            events.push(event);
+            eventPtrs.push(event);
         }
 
 
@@ -33,20 +33,20 @@ namespace patterns {
         {
             const auto eventPtr = std::make_shared<patterns::messages::Event>(eventId);
 
-            events.push(eventPtr);
+            eventPtrs.push(eventPtr);
         }
 
 
         template<typename T>
         void Context<T>::run()
         {
-            currentState->doActivity();
+            currentStatePtr->doActivity();
 
-            while (!events.empty())
+            while (!eventPtrs.empty())
             {
-                patterns::messages::EventPtr event = events.front();
-                currentState->handleEvent(event);
-                events.pop();
+                patterns::messages::EventPtr event = eventPtrs.front();
+                currentStatePtr->handleEvent(event);
+                eventPtrs.pop();
             }
         }
 
@@ -57,10 +57,10 @@ namespace patterns {
             std::queue<patterns::messages::EventPtr> newEvents;
 
             patterns::messages::EventPtr currentEventPtr;
-            currentEventPtr = events.front();
+            currentEventPtr = eventPtrs.front();
             newEvents.push(currentEventPtr);
 
-            std::swap(events, newEvents);
+            std::swap(eventPtrs, newEvents);
         }
 
 
@@ -68,7 +68,7 @@ namespace patterns {
         template<typename S>
         bool Context<T>::currentStateIs() const
         {
-            return std::dynamic_pointer_cast<S>(currentState) != nullptr;
+            return std::dynamic_pointer_cast<S>(currentStatePtr) != nullptr;
         }
 
     }
