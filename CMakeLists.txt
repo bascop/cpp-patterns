@@ -9,8 +9,7 @@ FIND_PACKAGE(Boost REQUIRED COMPONENTS
 
 INCLUDE_DIRECTORIES(
         include
-        SYSTEM
-        ${catkin_INCLUDE_DIRS})
+        SYSTEM) # TODO : include boost directories ?
 
 file(GLOB_RECURSE
         ${PROJECT_NAME}_HDRS
@@ -26,7 +25,6 @@ add_library(${PROJECT_NAME}_lib SHARED
         ${${PROJECT_NAME}_SRCS})
 
 target_link_libraries(${PROJECT_NAME}_lib
-        ${catkin_LIBRARIES}
         ${Boost_LIBRARIES})
 
 
@@ -41,4 +39,3 @@ target_link_libraries(${PROJECT_NAME}_test
         ${Boost_LIBRARIES}
         ${PROJECT_NAME}_lib)
 
-add_subdirectory(spike)
