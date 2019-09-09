@@ -1,40 +1,62 @@
-cmake_minimum_required(VERSION 3.1)
-project(cpp-patterns)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.8)
 
-ADD_COMPILE_OPTIONS(-std=c++14 -Wall -Wconversion -Wextra) # TODO : this is dirty
+PROJECT(cpp-patterns
+        VERSION 0.0.1 LANGUAGES CXX)
+
+ADD_COMPILE_OPTIONS(
+        -std=c++14 -Wall -Wconversion -Wextra) # TODO : this is dirty
 
 FIND_PACKAGE(Boost REQUIRED COMPONENTS
-        system
         unit_test_framework)
 
-INCLUDE_DIRECTORIES(
+INCLUDE_DIRECTORIES( # TODO : is this needed ???
         include
-        SYSTEM) # TODO : include boost directories ?
+        SYSTEM) # TODO : include boost directories
 
-file(GLOB_RECURSE
-        ${PROJECT_NAME}_HDRS
-        include/${PROJECT_NAME}/cpp-patterns/*.hpp)
+FILE(GLOB_RECURSE ${PROJECT_NAME}_HDRS
+        include/${PROJECT_NAME}/*.hpp)
 
-file(GLOB_RECURSE
-        ${PROJECT_NAME}_TPPS
-        include/${PROJECT_NAME}/cpp-patterns/*.tpp)
+FILE(GLOB_RECURSE ${PROJECT_NAME}_TPPS
+        include/${PROJECT_NAME}/*.tpp)
 
-file(GLOB_RECURSE
-        ${PROJECT_NAME}_SRCS
+FILE(GLOB_RECURSE ${PROJECT_NAME}_SRCS
         src/*.cpp)
 
-add_library(${PROJECT_NAME}_lib SHARED
+ADD_LIBRARY(${PROJECT_NAME} SHARED
         ${${PROJECT_NAME}_HDRS}
         ${${PROJECT_NAME}_TPPS}
         ${${PROJECT_NAME}_SRCS})
 
-target_link_libraries(${PROJECT_NAME}_lib
+TARGET_LINK_LIBRARIES(${PROJECT_NAME}
         ${Boost_LIBRARIES})
 
+INCLUDE(GNUInstallDirs)
 
-file(GLOB_RECURSE
-        ${PROJECT_NAME}_test_SRCS
-        test/*.cpp)
+TARGET_INCLUDE_DIRECTORIES(
+        ${PROJECT_NAME} PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include/>
+        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
+
+TARGET_COMPILE_DEFINITIONS(
+        ${PROJECT_NAME} PRIVATE -D_EXPORT)
+
+INSTALL(
+        TARGETS ${PROJECT_NAME}
+        EXPORT ${PROJECT_NAME}-config
+        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
+
+INSTALL(
+        EXPORT ${PROJECT_NAME}-config
+        NAMESPACE ${PROJECT_NAME}::
+        DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME})
+
+INSTALL(
+        DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/include/
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
+
+file(GLOB_RECURSE ${PROJECT_NAME}_test_SRCS
+        test/*.cpp
+        test/*.hpp)
 
 add_executable(${PROJECT_NAME}_test
         ${${PROJECT_NAME}_test_SRCS})
@@ -42,4 +64,3 @@ add_executable(${PROJECT_NAME}_test
 target_link_libraries(${PROJECT_NAME}_test
         ${Boost_LIBRARIES}
         ${PROJECT_NAME}_lib)
-

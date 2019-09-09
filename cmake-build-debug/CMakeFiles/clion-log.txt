@@ -1,0 +1,7 @@
+/snap/clion/82/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/bas/Projects/cpp_patterns
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   unit_test_framework
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bas/Projects/cpp_patterns/cmake-build-debug

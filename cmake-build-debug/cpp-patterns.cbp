@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp-patterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-patterns_test">
+				<Option output="/home/bas/Projects/cpp_patterns/cmake-build-debug/cpp-patterns_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bas/Projects/cpp_patterns/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp-patterns_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-patterns_test/fast">
+				<Option output="/home/bas/Projects/cpp_patterns/cmake-build-debug/cpp-patterns_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bas/Projects/cpp_patterns/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp-patterns_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-patterns">
+				<Option output="/home/bas/Projects/cpp_patterns/cmake-build-debug/libcpp-patterns.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_EXPORT"/>
+					<Add directory="/home/bas/Projects/cpp_patterns/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp-patterns"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-patterns/fast">
+				<Option output="/home/bas/Projects/cpp_patterns/cmake-build-debug/libcpp-patterns.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_EXPORT"/>
+					<Add directory="/home/bas/Projects/cpp_patterns/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp-patterns/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/bas/Projects/cpp_patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bas/Projects/cpp_patterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/messages/Event.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/observer/Notifier.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/observer/Observer.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/singleton/Singleton.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/singleton/Singleton.tpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/state/Context.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/state/Context.tpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/state/ContextState.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/state/ContextState.tpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/include/cpp-patterns/state/State.hpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/messages/Event.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/messages/argument_holder/ArgumentHolder.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/observer/Notifier.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/observer/Observer.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/singleton/Singleton.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/state/Context.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/state/ContextState.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/src/state/State.cpp">
+			<Option target="cpp-patterns"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/main.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/argument_holder/test_argument_ArgumentHolder.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/argument_holder/test_utils/TestArgumentHolder.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/argument_holder/test_utils/TestArgumentHolder.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/test_state_Event.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/test_utils/TestEvent.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/test_utils/TestEvent.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_observer_Notifier.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/singleton/test_singleton_Singleton.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/singleton/test_utils/TestSingleton.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/singleton/test_utils/TestSingleton.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_state_Context.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_state_ContextState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
