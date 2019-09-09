@@ -54,6 +54,8 @@ INSTALL(
         DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/include/
         DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
 
+# TODO : move this section (test section) to seperate CMakeLists.txt file inside test/ folder.
+
 file(GLOB_RECURSE ${PROJECT_NAME}_test_SRCS
         test/*.cpp
         test/*.hpp)
@@ -63,4 +65,4 @@ add_executable(${PROJECT_NAME}_test
 
 target_link_libraries(${PROJECT_NAME}_test
         ${Boost_LIBRARIES}
-        ${PROJECT_NAME}_lib)
+        ${PROJECT_NAME})

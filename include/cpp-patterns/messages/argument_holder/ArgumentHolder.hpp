@@ -8,30 +8,28 @@
 
 #include <boost/any.hpp>
 
-namespace patterns {
-    namespace messages {
+namespace cpp_patterns {
 
-        class ArgumentHolder
-        {
-        public:
-            virtual ~ArgumentHolder() = default;
+    class ArgumentHolder
+    {
+    public:
+        virtual ~ArgumentHolder() = default;
 
-            template<typename T>
-            void addArgument(const T &argument);
+        template<typename Type>
+        void addArgument(const Type &argument);
 
-            template<typename T>
-            std::shared_ptr<T> getArgument(uint32_t index) const;
+        template<typename Type>
+        Type getArgumentByIndex(uint32_t index) const;
 
-            unsigned long getNumberOfArguments() const;
+        unsigned long getNumberOfArguments() const;
 
-        protected:
-            ArgumentHolder();
+    protected:
+        ArgumentHolder();
 
-        private:
-            std::vector<boost::any> arguments;
-        };
+    private:
+        std::vector<boost::any> arguments; // TODO : make std::any
+    };
 
-    }
 }
 
 #include "ArgumentHolder.tpp"

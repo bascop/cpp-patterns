@@ -1,28 +1,49 @@
 
+// HEADER INCLUDE
 #include "TestObserver.hpp"
 
 
 TestObserver::TestObserver()
-    : Observer(),
-      notified(false),
-      lastEventPtr(nullptr)
+    : onNotificationFn(nullptr),
+      onNotificationWithEventFn(nullptr)
 {
 }
 
-void TestObserver::notify(const patterns::messages::EventPtr &eventPtr)
+
+TestObserver::TestObserver(
+    const TestObserver::OnNotificationFn &onNotificationFn)
+    : onNotificationFn(onNotificationFn),
+      onNotificationWithEventFn(nullptr)
 {
-    notified = true;
-    lastEventPtr = eventPtr;
 }
 
 
-bool TestObserver::gotNotified() const
+TestObserver::TestObserver(
+    const TestObserver::OnNotificationWithEventFn &onNotificationWithEventFn)
+    : onNotificationFn(nullptr),
+      onNotificationWithEventFn(onNotificationWithEventFn)
 {
-    return notified;
 }
 
 
-const patterns::messages::EventPtr &TestObserver::getLastEventPtr() const
+TestObserver::TestObserver(
+    const TestObserver::OnNotificationFn &onNotificationFn,
+    const TestObserver::OnNotificationWithEventFn &onNotificationWithEventFn)
+    : onNotificationFn(onNotificationFn),
+      onNotificationWithEventFn(onNotificationWithEventFn)
 {
-    return lastEventPtr;
+}
+
+
+void TestObserver::onNotification(const cpp_patterns::EventPtr &eventPtr)
+{
+    if (onNotificationFn != nullptr)
+    {
+        onNotificationFn();
+    }
+
+    if (onNotificationWithEventFn != nullptr && eventPtr != nullptr)
+    {
+        onNotificationWithEventFn(eventPtr);
+    }
 }

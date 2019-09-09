@@ -4,30 +4,27 @@
 
 #include <memory>
 
-namespace patterns {
-    namespace singleton {
+namespace cpp_patterns {
 
-        template<typename T> class Singleton
-        {
-        public:
-            virtual ~Singleton() = default;
+    template<typename TypeName>
+    class Singleton
+    {
+    public:
+        virtual ~Singleton() = default;
 
-            Singleton(const Singleton &other) = delete;
+        Singleton(const Singleton &other) = delete;
 
-            virtual Singleton &operator=(const Singleton &other) = delete;
+        virtual Singleton &operator=(const Singleton &other) = delete;
 
-            static std::shared_ptr<T> getInstance();
+        static std::shared_ptr<TypeName> getInstance();
 
-            static std::shared_ptr<T> i();
+    protected:
+        Singleton() = default;
 
-        protected:
-            Singleton();
+    private:
+        static std::shared_ptr<TypeName> instancePtr;
+    };
 
-        private:
-            static std::shared_ptr<T> instancePtr;
-        };
-
-    }
 }
 
 #include "Singleton.tpp"

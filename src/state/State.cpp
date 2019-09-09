@@ -1,37 +1,31 @@
 
 #include <cpp-patterns/state/State.hpp>
 
-namespace patterns {
-    namespace state {
+namespace cpp_patterns {
 
-        State::State()
-        {
-        }
-
-
-        void State::entryAction()
-        {
-        }
-
-
-        void State::doActivity()
-        {
-        }
-
-
-        void State::exitAction()
-        {
-        }
-
-
-        bool State::handleEvent(const patterns::messages::EventPtr &eventPtr)
-        {
-            switch (eventPtr->getId())
-            {
-                default:
-                    return false;
-            }
-        }
-
+    State::State()
+    {
     }
+
+
+    void State::entryAction()
+    {
+    }
+
+
+    void State::doActivity()
+    {
+    }
+
+
+    void State::exitAction()
+    {
+    }
+
+
+    bool State::handleEvent(const EventPtr &/*eventPtr*/)
+    {
+        return false;
+    }
+
 }

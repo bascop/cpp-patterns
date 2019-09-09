@@ -257,19 +257,13 @@
 		<Unit filename="/home/bas/Projects/cpp_patterns/test/messages/test_utils/TestEvent.hpp">
 			<Option target="cpp-patterns_test"/>
 		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/helpers/TestObserver.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/helpers/TestObserver.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
 		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_observer_Notifier.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.hpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.hpp">
 			<Option target="cpp-patterns_test"/>
 		</Unit>
 		<Unit filename="/home/bas/Projects/cpp_patterns/test/singleton/test_singleton_Singleton.cpp">
@@ -281,34 +275,34 @@
 		<Unit filename="/home/bas/Projects/cpp_patterns/test/singleton/test_utils/TestSingleton.hpp">
 			<Option target="cpp-patterns_test"/>
 		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/TestContext.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/TestContext.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/FirstTestState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/FirstTestState.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/SecondTestState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/SecondTestState.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/TestState.cpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
+		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/TestState.hpp">
+			<Option target="cpp-patterns_test"/>
+		</Unit>
 		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_state_Context.cpp">
 			<Option target="cpp-patterns_test"/>
 		</Unit>
 		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_state_ContextState.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.hpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.hpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.hpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.cpp">
-			<Option target="cpp-patterns_test"/>
-		</Unit>
-		<Unit filename="/home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.hpp">
 			<Option target="cpp-patterns_test"/>
 		</Unit>
 		<Unit filename="/home/bas/Projects/cpp_patterns/CMakeLists.txt">

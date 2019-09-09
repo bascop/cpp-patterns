@@ -7,7 +7,7 @@
 
 
 class TestContext
-    : public patterns::state::Context<TestContext>
+    : public cpp_patterns::Context<TestContext>
 {
 public:
     TestContext();

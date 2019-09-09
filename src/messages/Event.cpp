@@ -1,20 +1,18 @@
 
 #include <cpp-patterns/messages/Event.hpp>
 
-namespace patterns {
-    namespace messages {
+namespace cpp_patterns {
 
-        Event::Event(uint8_t id)
-            : ArgumentHolder(),
-              id(id)
-        {
-        }
-
-
-        uint8_t Event::getId() const
-        {
-            return id;
-        }
-
+    Event::Event(uint8_t id)
+        : ArgumentHolder(),
+          id(id)
+    {
     }
+
+
+    uint8_t Event::getId() const
+    {
+        return id;
+    }
+
 }

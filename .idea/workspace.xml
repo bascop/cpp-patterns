@@ -23,6 +23,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1QbjPZA3SDCs5vasBLfG48dnulp" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/CMakeLists.txt" />
@@ -47,7 +48,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.cpp-patterns">
+  <component name="RunManager" selected="CMake Application.cpp-patterns_test">
+    <configuration name="OBSERVER_NOTIFIER" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-patterns" TARGET_NAME="cpp-patterns_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp-patterns" RUN_TARGET_NAME="cpp-patterns_test" TEST_CLASS="OBSERVER_NOTIFIER" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="argument_ArgumentHolder_tests" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-patterns" TARGET_NAME="cpp-patterns_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp-patterns" RUN_TARGET_NAME="cpp-patterns_test" TEST_CLASS="argument_ArgumentHolder_tests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build_all" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cpp-patterns" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-patterns" TARGET_NAME="cpp-patterns" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -59,8 +77,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Boost.Test.OBSERVER_NOTIFIER" />
+      <item itemvalue="Boost.Test.argument_ArgumentHolder_tests" />
+      <item itemvalue="CMake Application.build_all" />
       <item itemvalue="CMake Application.cpp-patterns" />
       <item itemvalue="CMake Application.cpp-patterns_test" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Boost.Test.argument_ArgumentHolder_tests" />
+        <item itemvalue="Boost.Test.OBSERVER_NOTIFIER" />
+      </list>
+    </recent_temporary>
   </component>
 </project>

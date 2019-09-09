@@ -1,34 +1,19 @@
 
-namespace patterns {
-    namespace singleton {
+namespace cpp_patterns {
 
-        template<typename T>
-        /* static */ std::shared_ptr<T> Singleton<T>::instancePtr = nullptr;
-
-
-        template<typename T>
-        Singleton<T>::Singleton()
-        {
-        }
+        template<typename TypeName>
+        /*static*/ std::shared_ptr<TypeName> Singleton<TypeName>::instancePtr = nullptr;
 
 
-        template<typename T>
-        /* static */ std::shared_ptr<T> Singleton<T>::getInstance()
+        template<typename TypeName>
+        /*static*/ std::shared_ptr<TypeName> Singleton<TypeName>::getInstance()
         {
             if (instancePtr == nullptr)
             {
-                instancePtr = std::make_shared<T>();
+                instancePtr = std::make_shared<TypeName>();
             }
 
             return instancePtr;
         }
 
-
-        template<typename T>
-        /* static */ std::shared_ptr<T> Singleton<T>::i()
-        {
-            return getInstance();
-        }
-
-    }
 }

@@ -25,29 +25,20 @@ CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.o: ../in
 CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.o: ../test/messages/test_utils/TestEvent.cpp
 CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.o: ../test/messages/test_utils/TestEvent.hpp
 
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../include/cpp-patterns/messages/Event.hpp
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../include/cpp-patterns/observer/Observer.hpp
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../test/observer/helpers/TestObserver.cpp
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../test/observer/helpers/TestObserver.hpp
+
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../include/cpp-patterns/messages/Event.hpp
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../include/cpp-patterns/observer/Notifier.hpp
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../include/cpp-patterns/observer/Observer.hpp
+CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../test/observer/helpers/TestObserver.hpp
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../test/observer/test_observer_Notifier.cpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../test/observer/test_utils/TestNotifier.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../test/observer/test_utils/TestObserver.hpp
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../include/cpp-patterns/messages/Event.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../include/cpp-patterns/observer/Notifier.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../include/cpp-patterns/observer/Observer.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../test/observer/test_utils/TestNotifier.cpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../test/observer/test_utils/TestNotifier.hpp
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../include/cpp-patterns/messages/Event.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../include/cpp-patterns/observer/Observer.hpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../test/observer/test_utils/TestObserver.cpp
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../test/observer/test_utils/TestObserver.hpp
 
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o: ../include/cpp-patterns/singleton/Singleton.hpp
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o: ../include/cpp-patterns/singleton/Singleton.tpp
@@ -59,6 +50,63 @@ CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o: 
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o: ../test/singleton/test_utils/TestSingleton.cpp
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o: ../test/singleton/test_utils/TestSingleton.hpp
 
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/messages/Event.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/state/Context.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/state/Context.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../include/cpp-patterns/state/State.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../test/messages/test_utils/TestEvent.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../test/state/helpers/TestContext.cpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../test/state/helpers/TestContext.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../test/state/helpers/test_state/FirstTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../test/state/helpers/test_state/TestState.hpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/messages/Event.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/Context.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/Context.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/State.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/messages/test_utils/TestEvent.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/state/helpers/TestContext.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/state/helpers/test_state/FirstTestState.cpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/state/helpers/test_state/FirstTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/state/helpers/test_state/SecondTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/state/helpers/test_state/TestState.hpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/messages/Event.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/Context.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/Context.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/State.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/messages/test_utils/TestEvent.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/state/helpers/TestContext.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/state/helpers/test_state/FirstTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/state/helpers/test_state/SecondTestState.cpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/state/helpers/test_state/SecondTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/state/helpers/test_state/TestState.hpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/messages/Event.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/state/Context.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/state/Context.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../include/cpp-patterns/state/State.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../test/messages/test_utils/TestEvent.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../test/state/helpers/TestContext.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../test/state/helpers/test_state/TestState.cpp
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../test/state/helpers/test_state/TestState.hpp
+
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../include/cpp-patterns/messages/Event.hpp
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
@@ -68,68 +116,11 @@ CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../include
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../include/cpp-patterns/state/State.hpp
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/messages/test_utils/TestEvent.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/helpers/TestContext.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/helpers/test_state/FirstTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/helpers/test_state/SecondTestState.hpp
+CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/helpers/test_state/TestState.hpp
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/test_state_Context.cpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/test_utils/TestContext.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/test_utils/test_state/FirstTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/test_utils/test_state/SecondTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/test_utils/test_state/TestState.hpp
 
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o: ../test/state/test_state_ContextState.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/messages/Event.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/state/Context.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/state/Context.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../include/cpp-patterns/state/State.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../test/messages/test_utils/TestEvent.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../test/state/test_utils/TestContext.cpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../test/state/test_utils/TestContext.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../test/state/test_utils/test_state/FirstTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../test/state/test_utils/test_state/TestState.hpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/messages/Event.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/Context.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/Context.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../include/cpp-patterns/state/State.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/messages/test_utils/TestEvent.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/state/test_utils/TestContext.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/state/test_utils/test_state/FirstTestState.cpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/state/test_utils/test_state/FirstTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/state/test_utils/test_state/SecondTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/state/test_utils/test_state/TestState.hpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/messages/Event.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/Context.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/Context.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../include/cpp-patterns/state/State.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/messages/test_utils/TestEvent.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/state/test_utils/TestContext.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/state/test_utils/test_state/FirstTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/state/test_utils/test_state/SecondTestState.cpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/state/test_utils/test_state/SecondTestState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/state/test_utils/test_state/TestState.hpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/messages/Event.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/messages/argument_holder/ArgumentHolder.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/state/Context.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/state/Context.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/state/ContextState.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/state/ContextState.tpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../include/cpp-patterns/state/State.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../test/messages/test_utils/TestEvent.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../test/state/test_utils/TestContext.hpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../test/state/test_utils/test_state/TestState.cpp
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../test/state/test_utils/test_state/TestState.hpp
 

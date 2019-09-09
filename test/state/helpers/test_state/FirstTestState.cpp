@@ -11,7 +11,7 @@ FirstTestState::FirstTestState(const std::shared_ptr<TestContext> &contextPtr)
 }
 
 
-bool FirstTestState::handleEvent(const patterns::messages::EventPtr &eventPtr)
+bool FirstTestState::handleEvent(const cpp_patterns::EventPtr &eventPtr)
 {
     switch (eventPtr->getId())
     {

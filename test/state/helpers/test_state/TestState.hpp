@@ -17,14 +17,14 @@ enum TestEventType
 
 
 class TestState
-    : public patterns::state::ContextState<TestContext>
+    : public cpp_patterns::ContextState<TestContext>
 {
 public:
     explicit TestState(const std::shared_ptr<TestContext> &contextPtr);
 
     virtual ~TestState() = default;
 
-    bool handleEvent(const patterns::messages::EventPtr &eventPtr) override;
+    bool handleEvent(const cpp_patterns::EventPtr &eventPtr) override;
 
 private:
     bool onPreemptEventsEvent() const;

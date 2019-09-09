@@ -5,29 +5,28 @@
 
 #include <cpp-patterns/messages/Event.hpp>
 
-namespace patterns {
-    namespace state {
+namespace cpp_patterns {
 
-        class State
-        {
-        public:
-            virtual ~State() = default;
+    class State
+    {
+    public:
+        virtual ~State() = default;
 
-            virtual void doActivity();
+        virtual void doActivity();
 
-            virtual void entryAction();
+        virtual void entryAction();
 
-            virtual void exitAction();
+        virtual void exitAction();
 
-            virtual bool handleEvent(const patterns::messages::EventPtr &eventPtr);
+        virtual bool handleEvent(const EventPtr &eventPtr);
 
-        protected:
-            State();
-        };
+    protected:
+        State();
+    };
 
-        typedef std::shared_ptr<State> StatePtr;
 
-    }
+    typedef std::shared_ptr<State> StatePtr;
+
 }
 
 #endif //CPP_PATTERNS_STATEINTERFACE_HPP

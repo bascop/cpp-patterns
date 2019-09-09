@@ -3,9 +3,9 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "test_utils/TestContext.hpp"
-#include "test_utils/test_state/FirstTestState.hpp"
-#include "test_utils/test_state/SecondTestState.hpp"
+#include "helpers/TestContext.hpp"
+#include "helpers/test_state/FirstTestState.hpp"
+#include "helpers/test_state/SecondTestState.hpp"
 
 BOOST_AUTO_TEST_SUITE(state_Context_tests)
 

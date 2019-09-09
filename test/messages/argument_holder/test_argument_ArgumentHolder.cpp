@@ -1,66 +1,33 @@
 
 #define BOOST_TEST_DYN_LINK
 
+// 3TH PARTY INCLUDES
 #include <boost/test/unit_test.hpp>
 
+// PROJECT INCLUDES
 #include "test_utils/TestArgumentHolder.hpp"
-
-using namespace patterns::messages;
 
 BOOST_AUTO_TEST_SUITE(argument_ArgumentHolder_tests)
 
-
-    BOOST_AUTO_TEST_CASE(argument_ArgumentHolder_test_getArgument)
-    {
-        TestArgumentHolder testArgumentHolder;
-
-        testArgumentHolder.addArgument<uint16_t>(324);
-        const auto argumentPtr = testArgumentHolder.getArgument<uint16_t>(0);
-
-        BOOST_ASSERT(argumentPtr != nullptr);
-        BOOST_CHECK_EQUAL(*argumentPtr, 324);
-    }
-
+    // TODO : test get out of range argument (> numberOfArguments)
+    // TODO : test get out of range argument (< 0)
 
     BOOST_AUTO_TEST_CASE(argument_ArgumentHolder_test_addArgument)
     {
-        TestArgumentHolder testArgumentHolder;
+        TestArgumentHolder argumentHolder;
 
-        for (uint8_t i = 1; i < 4; ++i)
+        uint8_t numberOfArguments = 4;
+        for (uint8_t i = 1; i < numberOfArguments; ++i)
         {
-            uint16_t value = i + static_cast<uint8_t>(100);
-            uint16_t argumentIndex = i - static_cast<uint8_t>(1);
+            uint16_t expectedArgumentValue = i + 100;
+            uint16_t argumentIndex = i - 1;
 
-            BOOST_CHECK_EQUAL(testArgumentHolder.getNumberOfArguments(), argumentIndex);
+            argumentHolder.addArgument<uint16_t>(expectedArgumentValue);
+            const auto resultArgumentValue = argumentHolder.getArgumentByIndex<uint16_t>(argumentIndex);
 
-            testArgumentHolder.addArgument<uint16_t>(value);
-            const auto argumentPtr = testArgumentHolder.getArgument<uint16_t>(argumentIndex);
-
-            BOOST_ASSERT(argumentPtr != nullptr);
-            BOOST_CHECK_EQUAL(*argumentPtr, value);
-            BOOST_CHECK_EQUAL(testArgumentHolder.getNumberOfArguments(), i);
+            BOOST_CHECK_EQUAL(expectedArgumentValue, resultArgumentValue);
+            BOOST_CHECK_EQUAL(argumentHolder.getNumberOfArguments(), i);
         }
-    }
-
-
-    BOOST_AUTO_TEST_CASE(argument_ArgumentHolder_test_getNumberOfArguments)
-    {
-        TestArgumentHolder testArgumentHolder;
-
-        testArgumentHolder.addArgument<uint16_t>(324);
-        const auto numberOfArguments = testArgumentHolder.getNumberOfArguments();
-
-        BOOST_CHECK_EQUAL(numberOfArguments, 1);
-    }
-
-
-    BOOST_AUTO_TEST_CASE(argument_ArgumentHolder_test_getArgument_out_of_bound)
-    {
-        TestArgumentHolder testArgumentHolder;
-
-        const auto argumentPtr = testArgumentHolder.getArgument<uint16_t>(0);
-
-        BOOST_CHECK_EQUAL(argumentPtr, nullptr);
     }
 
 

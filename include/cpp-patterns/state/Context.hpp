@@ -8,41 +8,39 @@
 
 #include <cpp-patterns/state/State.hpp>
 
-namespace patterns {
-    namespace state {
+namespace cpp_patterns {
 
-        template<typename T>
-        class Context
-            : public std::enable_shared_from_this<T>
-        {
-        public:
-            virtual ~Context() = default;
+    template<typename T>
+    class Context
+        : public std::enable_shared_from_this<T>
+    {
+    public:
+        virtual ~Context() = default;
 
-            void run();
+        void run();
 
-            virtual void setStartState() = 0;
+        virtual void setStartState() = 0;
 
-            void setNewCurrentState(const StatePtr &newCurrentStatePtr);
+        void setNewCurrentState(const StatePtr &newCurrentStatePtr);
 
-            void scheduleEvent(const patterns::messages::EventPtr &eventPtr);
+        void scheduleEvent(const EventPtr &eventPtr);
 
-            void scheduleEvent(uint8_t eventId);
+        void scheduleEvent(uint8_t eventId);
 
-            void preemptEvents();
+        void preemptEvents();
 
-            template<typename S>
-            bool currentStateIs() const;
+        template<typename S>
+        bool currentStateIs() const;
 
-        protected:
-            Context();
+    protected:
+        Context();
 
-            StatePtr currentStatePtr;
+        StatePtr currentStatePtr;
 
-        private:
-            std::queue<patterns::messages::EventPtr> eventPtrs;
-        };
+    private:
+        std::queue<EventPtr> eventPtrs;
+    };
 
-    }
 }
 
 #include "Context.tpp"

@@ -5,26 +5,24 @@
 
 #include <cpp-patterns/messages/argument_holder/ArgumentHolder.hpp>
 
-namespace patterns {
-    namespace messages {
+namespace cpp_patterns {
 
-        class Event : public ArgumentHolder
-        {
-        public:
-            explicit Event(uint8_t id);
+    class Event : public ArgumentHolder
+    {
+    public:
+        explicit Event(uint8_t id);
 
-            virtual ~Event() = default;
+        virtual ~Event() = default;
 
-            uint8_t getId() const;
+        uint8_t getId() const;
 
-        protected:
-            uint8_t id;
-        };
+    private:
+        uint8_t id;
+    };
 
 
-        typedef std::shared_ptr<Event> EventPtr;
+    typedef std::shared_ptr<Event> EventPtr;
 
-    }
 }
 
 #endif

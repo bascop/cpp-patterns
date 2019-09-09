@@ -5,7 +5,7 @@
 
 #include <cpp-patterns/messages/argument_holder/ArgumentHolder.hpp>
 
-class TestArgumentHolder : public patterns::messages::ArgumentHolder
+class TestArgumentHolder : public cpp_patterns::ArgumentHolder
 {
 public:
     TestArgumentHolder();

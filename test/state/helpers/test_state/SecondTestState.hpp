@@ -13,7 +13,7 @@ public:
 
     virtual ~SecondTestState() = default;
 
-    bool handleEvent(const patterns::messages::EventPtr &eventPtr) override;
+    bool handleEvent(const cpp_patterns::EventPtr &eventPtr) override;
 
 private:
     bool onGoToFirstTestState() const;

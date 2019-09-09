@@ -8,7 +8,7 @@ TestState::TestState(const std::shared_ptr<TestContext> &contextPtr)
 }
 
 
-bool TestState::handleEvent(const patterns::messages::EventPtr &eventPtr)
+bool TestState::handleEvent(const cpp_patterns::EventPtr &eventPtr)
 {
     switch (eventPtr->getId())
     {

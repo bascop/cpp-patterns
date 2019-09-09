@@ -10,7 +10,7 @@ SecondTestState::SecondTestState(const TestContextPtr &contextPtr)
 }
 
 
-bool SecondTestState::handleEvent(const patterns::messages::EventPtr &eventPtr)
+bool SecondTestState::handleEvent(const cpp_patterns::EventPtr &eventPtr)
 {
     switch (eventPtr->getId())
     {

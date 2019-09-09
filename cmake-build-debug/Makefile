@@ -533,6 +533,33 @@ test/messages/test_utils/TestEvent.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.s
 .PHONY : test/messages/test_utils/TestEvent.cpp.s
 
+test/observer/helpers/TestObserver.o: test/observer/helpers/TestObserver.cpp.o
+
+.PHONY : test/observer/helpers/TestObserver.o
+
+# target to build an object file
+test/observer/helpers/TestObserver.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o
+.PHONY : test/observer/helpers/TestObserver.cpp.o
+
+test/observer/helpers/TestObserver.i: test/observer/helpers/TestObserver.cpp.i
+
+.PHONY : test/observer/helpers/TestObserver.i
+
+# target to preprocess a source file
+test/observer/helpers/TestObserver.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.i
+.PHONY : test/observer/helpers/TestObserver.cpp.i
+
+test/observer/helpers/TestObserver.s: test/observer/helpers/TestObserver.cpp.s
+
+.PHONY : test/observer/helpers/TestObserver.s
+
+# target to generate assembly for a file
+test/observer/helpers/TestObserver.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.s
+.PHONY : test/observer/helpers/TestObserver.cpp.s
+
 test/observer/test_observer_Notifier.o: test/observer/test_observer_Notifier.cpp.o
 
 .PHONY : test/observer/test_observer_Notifier.o
@@ -559,60 +586,6 @@ test/observer/test_observer_Notifier.s: test/observer/test_observer_Notifier.cpp
 test/observer/test_observer_Notifier.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.s
 .PHONY : test/observer/test_observer_Notifier.cpp.s
-
-test/observer/test_utils/TestNotifier.o: test/observer/test_utils/TestNotifier.cpp.o
-
-.PHONY : test/observer/test_utils/TestNotifier.o
-
-# target to build an object file
-test/observer/test_utils/TestNotifier.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o
-.PHONY : test/observer/test_utils/TestNotifier.cpp.o
-
-test/observer/test_utils/TestNotifier.i: test/observer/test_utils/TestNotifier.cpp.i
-
-.PHONY : test/observer/test_utils/TestNotifier.i
-
-# target to preprocess a source file
-test/observer/test_utils/TestNotifier.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.i
-.PHONY : test/observer/test_utils/TestNotifier.cpp.i
-
-test/observer/test_utils/TestNotifier.s: test/observer/test_utils/TestNotifier.cpp.s
-
-.PHONY : test/observer/test_utils/TestNotifier.s
-
-# target to generate assembly for a file
-test/observer/test_utils/TestNotifier.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.s
-.PHONY : test/observer/test_utils/TestNotifier.cpp.s
-
-test/observer/test_utils/TestObserver.o: test/observer/test_utils/TestObserver.cpp.o
-
-.PHONY : test/observer/test_utils/TestObserver.o
-
-# target to build an object file
-test/observer/test_utils/TestObserver.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o
-.PHONY : test/observer/test_utils/TestObserver.cpp.o
-
-test/observer/test_utils/TestObserver.i: test/observer/test_utils/TestObserver.cpp.i
-
-.PHONY : test/observer/test_utils/TestObserver.i
-
-# target to preprocess a source file
-test/observer/test_utils/TestObserver.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.i
-.PHONY : test/observer/test_utils/TestObserver.cpp.i
-
-test/observer/test_utils/TestObserver.s: test/observer/test_utils/TestObserver.cpp.s
-
-.PHONY : test/observer/test_utils/TestObserver.s
-
-# target to generate assembly for a file
-test/observer/test_utils/TestObserver.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.s
-.PHONY : test/observer/test_utils/TestObserver.cpp.s
 
 test/singleton/test_singleton_Singleton.o: test/singleton/test_singleton_Singleton.cpp.o
 
@@ -668,6 +641,114 @@ test/singleton/test_utils/TestSingleton.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.s
 .PHONY : test/singleton/test_utils/TestSingleton.cpp.s
 
+test/state/helpers/TestContext.o: test/state/helpers/TestContext.cpp.o
+
+.PHONY : test/state/helpers/TestContext.o
+
+# target to build an object file
+test/state/helpers/TestContext.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o
+.PHONY : test/state/helpers/TestContext.cpp.o
+
+test/state/helpers/TestContext.i: test/state/helpers/TestContext.cpp.i
+
+.PHONY : test/state/helpers/TestContext.i
+
+# target to preprocess a source file
+test/state/helpers/TestContext.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.i
+.PHONY : test/state/helpers/TestContext.cpp.i
+
+test/state/helpers/TestContext.s: test/state/helpers/TestContext.cpp.s
+
+.PHONY : test/state/helpers/TestContext.s
+
+# target to generate assembly for a file
+test/state/helpers/TestContext.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.s
+.PHONY : test/state/helpers/TestContext.cpp.s
+
+test/state/helpers/test_state/FirstTestState.o: test/state/helpers/test_state/FirstTestState.cpp.o
+
+.PHONY : test/state/helpers/test_state/FirstTestState.o
+
+# target to build an object file
+test/state/helpers/test_state/FirstTestState.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o
+.PHONY : test/state/helpers/test_state/FirstTestState.cpp.o
+
+test/state/helpers/test_state/FirstTestState.i: test/state/helpers/test_state/FirstTestState.cpp.i
+
+.PHONY : test/state/helpers/test_state/FirstTestState.i
+
+# target to preprocess a source file
+test/state/helpers/test_state/FirstTestState.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.i
+.PHONY : test/state/helpers/test_state/FirstTestState.cpp.i
+
+test/state/helpers/test_state/FirstTestState.s: test/state/helpers/test_state/FirstTestState.cpp.s
+
+.PHONY : test/state/helpers/test_state/FirstTestState.s
+
+# target to generate assembly for a file
+test/state/helpers/test_state/FirstTestState.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.s
+.PHONY : test/state/helpers/test_state/FirstTestState.cpp.s
+
+test/state/helpers/test_state/SecondTestState.o: test/state/helpers/test_state/SecondTestState.cpp.o
+
+.PHONY : test/state/helpers/test_state/SecondTestState.o
+
+# target to build an object file
+test/state/helpers/test_state/SecondTestState.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o
+.PHONY : test/state/helpers/test_state/SecondTestState.cpp.o
+
+test/state/helpers/test_state/SecondTestState.i: test/state/helpers/test_state/SecondTestState.cpp.i
+
+.PHONY : test/state/helpers/test_state/SecondTestState.i
+
+# target to preprocess a source file
+test/state/helpers/test_state/SecondTestState.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.i
+.PHONY : test/state/helpers/test_state/SecondTestState.cpp.i
+
+test/state/helpers/test_state/SecondTestState.s: test/state/helpers/test_state/SecondTestState.cpp.s
+
+.PHONY : test/state/helpers/test_state/SecondTestState.s
+
+# target to generate assembly for a file
+test/state/helpers/test_state/SecondTestState.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.s
+.PHONY : test/state/helpers/test_state/SecondTestState.cpp.s
+
+test/state/helpers/test_state/TestState.o: test/state/helpers/test_state/TestState.cpp.o
+
+.PHONY : test/state/helpers/test_state/TestState.o
+
+# target to build an object file
+test/state/helpers/test_state/TestState.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o
+.PHONY : test/state/helpers/test_state/TestState.cpp.o
+
+test/state/helpers/test_state/TestState.i: test/state/helpers/test_state/TestState.cpp.i
+
+.PHONY : test/state/helpers/test_state/TestState.i
+
+# target to preprocess a source file
+test/state/helpers/test_state/TestState.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.i
+.PHONY : test/state/helpers/test_state/TestState.cpp.i
+
+test/state/helpers/test_state/TestState.s: test/state/helpers/test_state/TestState.cpp.s
+
+.PHONY : test/state/helpers/test_state/TestState.s
+
+# target to generate assembly for a file
+test/state/helpers/test_state/TestState.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.s
+.PHONY : test/state/helpers/test_state/TestState.cpp.s
+
 test/state/test_state_Context.o: test/state/test_state_Context.cpp.o
 
 .PHONY : test/state/test_state_Context.o
@@ -722,114 +803,6 @@ test/state/test_state_ContextState.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.s
 .PHONY : test/state/test_state_ContextState.cpp.s
 
-test/state/test_utils/TestContext.o: test/state/test_utils/TestContext.cpp.o
-
-.PHONY : test/state/test_utils/TestContext.o
-
-# target to build an object file
-test/state/test_utils/TestContext.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o
-.PHONY : test/state/test_utils/TestContext.cpp.o
-
-test/state/test_utils/TestContext.i: test/state/test_utils/TestContext.cpp.i
-
-.PHONY : test/state/test_utils/TestContext.i
-
-# target to preprocess a source file
-test/state/test_utils/TestContext.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.i
-.PHONY : test/state/test_utils/TestContext.cpp.i
-
-test/state/test_utils/TestContext.s: test/state/test_utils/TestContext.cpp.s
-
-.PHONY : test/state/test_utils/TestContext.s
-
-# target to generate assembly for a file
-test/state/test_utils/TestContext.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.s
-.PHONY : test/state/test_utils/TestContext.cpp.s
-
-test/state/test_utils/test_state/FirstTestState.o: test/state/test_utils/test_state/FirstTestState.cpp.o
-
-.PHONY : test/state/test_utils/test_state/FirstTestState.o
-
-# target to build an object file
-test/state/test_utils/test_state/FirstTestState.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o
-.PHONY : test/state/test_utils/test_state/FirstTestState.cpp.o
-
-test/state/test_utils/test_state/FirstTestState.i: test/state/test_utils/test_state/FirstTestState.cpp.i
-
-.PHONY : test/state/test_utils/test_state/FirstTestState.i
-
-# target to preprocess a source file
-test/state/test_utils/test_state/FirstTestState.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.i
-.PHONY : test/state/test_utils/test_state/FirstTestState.cpp.i
-
-test/state/test_utils/test_state/FirstTestState.s: test/state/test_utils/test_state/FirstTestState.cpp.s
-
-.PHONY : test/state/test_utils/test_state/FirstTestState.s
-
-# target to generate assembly for a file
-test/state/test_utils/test_state/FirstTestState.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.s
-.PHONY : test/state/test_utils/test_state/FirstTestState.cpp.s
-
-test/state/test_utils/test_state/SecondTestState.o: test/state/test_utils/test_state/SecondTestState.cpp.o
-
-.PHONY : test/state/test_utils/test_state/SecondTestState.o
-
-# target to build an object file
-test/state/test_utils/test_state/SecondTestState.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o
-.PHONY : test/state/test_utils/test_state/SecondTestState.cpp.o
-
-test/state/test_utils/test_state/SecondTestState.i: test/state/test_utils/test_state/SecondTestState.cpp.i
-
-.PHONY : test/state/test_utils/test_state/SecondTestState.i
-
-# target to preprocess a source file
-test/state/test_utils/test_state/SecondTestState.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.i
-.PHONY : test/state/test_utils/test_state/SecondTestState.cpp.i
-
-test/state/test_utils/test_state/SecondTestState.s: test/state/test_utils/test_state/SecondTestState.cpp.s
-
-.PHONY : test/state/test_utils/test_state/SecondTestState.s
-
-# target to generate assembly for a file
-test/state/test_utils/test_state/SecondTestState.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.s
-.PHONY : test/state/test_utils/test_state/SecondTestState.cpp.s
-
-test/state/test_utils/test_state/TestState.o: test/state/test_utils/test_state/TestState.cpp.o
-
-.PHONY : test/state/test_utils/test_state/TestState.o
-
-# target to build an object file
-test/state/test_utils/test_state/TestState.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o
-.PHONY : test/state/test_utils/test_state/TestState.cpp.o
-
-test/state/test_utils/test_state/TestState.i: test/state/test_utils/test_state/TestState.cpp.i
-
-.PHONY : test/state/test_utils/test_state/TestState.i
-
-# target to preprocess a source file
-test/state/test_utils/test_state/TestState.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.i
-.PHONY : test/state/test_utils/test_state/TestState.cpp.i
-
-test/state/test_utils/test_state/TestState.s: test/state/test_utils/test_state/TestState.cpp.s
-
-.PHONY : test/state/test_utils/test_state/TestState.s
-
-# target to generate assembly for a file
-test/state/test_utils/test_state/TestState.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.s
-.PHONY : test/state/test_utils/test_state/TestState.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -883,39 +856,36 @@ help:
 	@echo "... test/messages/test_utils/TestEvent.o"
 	@echo "... test/messages/test_utils/TestEvent.i"
 	@echo "... test/messages/test_utils/TestEvent.s"
+	@echo "... test/observer/helpers/TestObserver.o"
+	@echo "... test/observer/helpers/TestObserver.i"
+	@echo "... test/observer/helpers/TestObserver.s"
 	@echo "... test/observer/test_observer_Notifier.o"
 	@echo "... test/observer/test_observer_Notifier.i"
 	@echo "... test/observer/test_observer_Notifier.s"
-	@echo "... test/observer/test_utils/TestNotifier.o"
-	@echo "... test/observer/test_utils/TestNotifier.i"
-	@echo "... test/observer/test_utils/TestNotifier.s"
-	@echo "... test/observer/test_utils/TestObserver.o"
-	@echo "... test/observer/test_utils/TestObserver.i"
-	@echo "... test/observer/test_utils/TestObserver.s"
 	@echo "... test/singleton/test_singleton_Singleton.o"
 	@echo "... test/singleton/test_singleton_Singleton.i"
 	@echo "... test/singleton/test_singleton_Singleton.s"
 	@echo "... test/singleton/test_utils/TestSingleton.o"
 	@echo "... test/singleton/test_utils/TestSingleton.i"
 	@echo "... test/singleton/test_utils/TestSingleton.s"
+	@echo "... test/state/helpers/TestContext.o"
+	@echo "... test/state/helpers/TestContext.i"
+	@echo "... test/state/helpers/TestContext.s"
+	@echo "... test/state/helpers/test_state/FirstTestState.o"
+	@echo "... test/state/helpers/test_state/FirstTestState.i"
+	@echo "... test/state/helpers/test_state/FirstTestState.s"
+	@echo "... test/state/helpers/test_state/SecondTestState.o"
+	@echo "... test/state/helpers/test_state/SecondTestState.i"
+	@echo "... test/state/helpers/test_state/SecondTestState.s"
+	@echo "... test/state/helpers/test_state/TestState.o"
+	@echo "... test/state/helpers/test_state/TestState.i"
+	@echo "... test/state/helpers/test_state/TestState.s"
 	@echo "... test/state/test_state_Context.o"
 	@echo "... test/state/test_state_Context.i"
 	@echo "... test/state/test_state_Context.s"
 	@echo "... test/state/test_state_ContextState.o"
 	@echo "... test/state/test_state_ContextState.i"
 	@echo "... test/state/test_state_ContextState.s"
-	@echo "... test/state/test_utils/TestContext.o"
-	@echo "... test/state/test_utils/TestContext.i"
-	@echo "... test/state/test_utils/TestContext.s"
-	@echo "... test/state/test_utils/test_state/FirstTestState.o"
-	@echo "... test/state/test_utils/test_state/FirstTestState.i"
-	@echo "... test/state/test_utils/test_state/FirstTestState.s"
-	@echo "... test/state/test_utils/test_state/SecondTestState.o"
-	@echo "... test/state/test_utils/test_state/SecondTestState.i"
-	@echo "... test/state/test_utils/test_state/SecondTestState.s"
-	@echo "... test/state/test_utils/test_state/TestState.o"
-	@echo "... test/state/test_utils/test_state/TestState.i"
-	@echo "... test/state/test_utils/test_state/TestState.s"
 .PHONY : help
 
 

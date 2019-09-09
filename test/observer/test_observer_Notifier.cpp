@@ -3,78 +3,43 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "test_utils/TestNotifier.hpp"
-#include "test_utils/TestObserver.hpp"
+// PROJECT INCLUDES
+#include <cpp-patterns/observer/Notifier.hpp>
+#include "helpers/TestObserver.hpp"
 
-BOOST_AUTO_TEST_SUITE(observer_Notifier_tests)
+BOOST_AUTO_TEST_SUITE(OBSERVER_NOTIFIER)
 
+    // TODO : test throw warning if addObserverPtr(nullptr)
 
-    BOOST_AUTO_TEST_CASE(observer_Notifier_test_addObserver)
+    BOOST_AUTO_TEST_CASE(ADD_OBSERVER_PTR)
     {
-        TestNotifier notifier;
+        cpp_patterns::Notifier notifier;
 
-        BOOST_ASSERT(notifier.getNumberOfObservers() == 0);
+        notifier.addObserverPtr(std::make_shared<TestObserver>());
+        notifier.addObserverPtr(std::make_shared<TestObserver>());
 
-        uint8_t numberOfObservers = 4;
-
-        for (uint8_t i = 0; i < numberOfObservers; ++i)
-        {
-            notifier.addObserverPtr(std::make_shared<TestObserver>());
-        }
-
-        BOOST_CHECK_EQUAL(notifier.getNumberOfObservers(), numberOfObservers);
+        BOOST_CHECK_EQUAL(notifier.getNumberOfObservers(), 2);
     }
 
 
-    BOOST_AUTO_TEST_CASE(observer_Notifier_test_addObserver_nullptr)
+    BOOST_AUTO_TEST_CASE(NOTIFY_OBSERVERS)
     {
-        TestNotifier notifier;
+        bool observer1GotNotified = false;
+        bool observer2GotNotified = false;
 
-        BOOST_ASSERT(notifier.getNumberOfObservers() == 0);
+        auto observer1OnNotificationFn = [&observer1GotNotified](){ observer1GotNotified = true;};
+        auto observer2OnNotificationFn = [&observer2GotNotified](){ observer2GotNotified = true;};
 
-        uint8_t numberOfObservers = 4;
+        cpp_patterns::Notifier notifier;
+        notifier.addObserverPtr(std::make_shared<TestObserver>(observer1OnNotificationFn));
+        notifier.addObserverPtr(std::make_shared<TestObserver>(observer2OnNotificationFn));
 
-        for (uint8_t i = 0; i < numberOfObservers; ++i)
-        {
-            notifier.addObserverPtr(nullptr);
-        }
-
-        BOOST_CHECK_EQUAL(notifier.getNumberOfObservers(), 0);
-    }
-
-
-    BOOST_AUTO_TEST_CASE(observer_Notifier_test_notifyObservers)
-    {
-        TestNotifier notifier;
-
-        uint8_t numberOfObservers = 4;
-        TestObserverPtrs testObserverPtrs;
-
-        for (uint8_t i = 0; i < numberOfObservers; ++i)
-        {
-            const auto testObserverPtr = std::make_shared<TestObserver>();
-            testObserverPtrs.push_back(testObserverPtr);
-            notifier.addObserverPtr(testObserverPtr);
-        }
+        BOOST_ASSERT(notifier.getNumberOfObservers() == 2);
 
         notifier.notifyObservers();
 
-        for (uint8_t i = 0; i < numberOfObservers; ++i)
-        {
-            BOOST_CHECK(testObserverPtrs[i]->gotNotified());
-        }
-    }
-
-
-    BOOST_AUTO_TEST_CASE(observer_Notifier_test_removeObserver)
-    {
-        // TODO : write unittest
-    }
-
-
-    BOOST_AUTO_TEST_CASE(observer_Notifier_test_removeObserver_nullptr)
-    {
-        // TODO : write unittest
+        BOOST_CHECK(observer1GotNotified);
+        BOOST_CHECK(observer2GotNotified);
     }
 
 

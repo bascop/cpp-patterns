@@ -2,38 +2,38 @@
 #ifndef CPP_PATTERNS_SUBJECTINTERFACE_HPP
 #define CPP_PATTERNS_SUBJECTINTERFACE_HPP
 
+// SYSTEM INCLUDES
 #include <memory>
 
+// PROJECT INCLUDES
 #include <cpp-patterns/observer/Observer.hpp>
 
-namespace patterns {
-    namespace observer {
+namespace cpp_patterns {
 
-        class Notifier
-        {
-        public:
-            virtual ~Notifier() = default;
+    class Notifier
+    {
+    public:
+        Notifier() = default;
 
-            void addObserverPtr(const ObserverPtr &observerPtr);
+        virtual ~Notifier() = default;
 
-            void removeObserverPtr(const ObserverPtr &observerPtr);
+        void addObserverPtr(const ObserverPtr &observerPtr);
 
-            void notifyObservers(const patterns::messages::EventPtr &eventPtr);
+        void notifyObservers(const EventPtr &eventPtr);
 
-            void notifyObservers();
+        void notifyObservers();
 
-            size_t getNumberOfObservers() const;
+        size_t getNumberOfObservers() const;
 
-        protected:
-            Notifier();
+    private:
+        void notifyObserver(const ObserverPtr &observerPtr, const EventPtr &eventPtr);
 
-            ObserverPtrs observerPtrs;
-        };
+        ObserverPtrArray observerPtrArray;
+    };
 
 
-        typedef std::shared_ptr<Notifier> SubjectPtr;
+    typedef std::shared_ptr<Notifier> NotifierPtr;
 
-    }
 }
 
 #endif

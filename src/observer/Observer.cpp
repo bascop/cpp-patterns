@@ -1,12 +1,8 @@
 
 #include <cpp-patterns/observer/Observer.hpp>
 
-namespace patterns {
-    namespace observer {
+namespace cpp_patterns {
 
-        Observer::Observer()
-        {
-        }
 
-    }
+
 }

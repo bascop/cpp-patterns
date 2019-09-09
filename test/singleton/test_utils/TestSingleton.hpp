@@ -5,7 +5,7 @@
 #include <cpp-patterns/singleton/Singleton.hpp>
 
 
-class TestSingleton : public patterns::singleton::Singleton<TestSingleton>
+class TestSingleton : public cpp_patterns::Singleton<TestSingleton>
 {
 public:
     TestSingleton();

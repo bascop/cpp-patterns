@@ -122,9 +122,22 @@ CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/messages/test_utils/TestEvent.cpp -o CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.s
 
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o: ../test/observer/helpers/TestObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o -c /home/bas/Projects/cpp_patterns/test/observer/helpers/TestObserver.cpp
+
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/observer/helpers/TestObserver.cpp > CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.i
+
+CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/observer/helpers/TestObserver.cpp -o CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.s
+
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o: ../test/observer/test_observer_Notifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o -c /home/bas/Projects/cpp_patterns/test/observer/test_observer_Notifier.cpp
 
 CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.i: cmake_force
@@ -135,35 +148,9 @@ CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/observer/test_observer_Notifier.cpp -o CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.s
 
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o: ../test/observer/test_utils/TestNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o -c /home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.cpp > CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.i
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/observer/test_utils/TestNotifier.cpp -o CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.s
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o: ../test/observer/test_utils/TestObserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o -c /home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.cpp > CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.i
-
-CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/observer/test_utils/TestObserver.cpp -o CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.s
-
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o: ../test/singleton/test_singleton_Singleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o -c /home/bas/Projects/cpp_patterns/test/singleton/test_singleton_Singleton.cpp
 
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.s: 
 
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o: ../test/singleton/test_utils/TestSingleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o -c /home/bas/Projects/cpp_patterns/test/singleton/test_utils/TestSingleton.cpp
 
 CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.i: cmake_force
@@ -187,9 +174,61 @@ CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/singleton/test_utils/TestSingleton.cpp -o CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.s
 
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o: ../test/state/helpers/TestContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/helpers/TestContext.cpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/helpers/TestContext.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.i
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/helpers/TestContext.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.s
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o: ../test/state/helpers/test_state/FirstTestState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/FirstTestState.cpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/FirstTestState.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.i
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/FirstTestState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.s
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o: ../test/state/helpers/test_state/SecondTestState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/SecondTestState.cpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/SecondTestState.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.i
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/SecondTestState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.s
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o: ../test/state/helpers/test_state/TestState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/TestState.cpp
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/TestState.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.i
+
+CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/helpers/test_state/TestState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.s
+
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o: ../test/state/test_state_Context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/test_state_Context.cpp
 
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.i: cmake_force
@@ -202,7 +241,7 @@ CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.s: cmake_forc
 
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o: ../test/state/test_state_ContextState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/test_state_ContextState.cpp
 
 CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.i: cmake_force
@@ -213,58 +252,6 @@ CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/test_state_ContextState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.s
 
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o: ../test/state/test_utils/TestContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.i
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/test_utils/TestContext.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.s
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o: ../test/state/test_utils/test_state/FirstTestState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.i
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/FirstTestState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.s
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o: ../test/state/test_utils/test_state/SecondTestState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.i
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/SecondTestState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.s
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: CMakeFiles/cpp-patterns_test.dir/flags.make
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o: ../test/state/test_utils/test_state/TestState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o -c /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.cpp
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.cpp > CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.i
-
-CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/test/state/test_utils/test_state/TestState.cpp -o CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.s
-
 # Object files for target cpp-patterns_test
 cpp__patterns_test_OBJECTS = \
 "CMakeFiles/cpp-patterns_test.dir/test/main.cpp.o" \
@@ -272,17 +259,16 @@ cpp__patterns_test_OBJECTS = \
 "CMakeFiles/cpp-patterns_test.dir/test/messages/argument_holder/test_utils/TestArgumentHolder.cpp.o" \
 "CMakeFiles/cpp-patterns_test.dir/test/messages/test_state_Event.cpp.o" \
 "CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.o" \
+"CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o" \
 "CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o" \
 "CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o" \
 "CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o" \
+"CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o" \
+"CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o" \
+"CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o" \
+"CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o" \
 "CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o" \
-"CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o"
+"CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o"
 
 # External object files for target cpp-patterns_test
 cpp__patterns_test_EXTERNAL_OBJECTS =
@@ -292,23 +278,22 @@ cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/messages/argument_holde
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/messages/argument_holder/test_utils/TestArgumentHolder.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/messages/test_state_Event.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/messages/test_utils/TestEvent.cpp.o
+cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/observer/helpers/TestObserver.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o
-cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestNotifier.cpp.o
-cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/observer/test_utils/TestObserver.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o
+cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o
+cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o
+cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o
+cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o
-cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/TestContext.cpp.o
-cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/FirstTestState.cpp.o
-cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/SecondTestState.cpp.o
-cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/test/state/test_utils/test_state/TestState.cpp.o
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/build.make
 cpp-patterns_test: /usr/local/lib/libboost_unit_test_framework.so
-cpp-patterns_test: /usr/local/lib/libboost_system.so
+cpp-patterns_test: libcpp-patterns.so
 cpp-patterns_test: /usr/local/lib/libboost_unit_test_framework.so
 cpp-patterns_test: CMakeFiles/cpp-patterns_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable cpp-patterns_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable cpp-patterns_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-patterns_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

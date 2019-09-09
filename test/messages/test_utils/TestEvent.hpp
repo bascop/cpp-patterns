@@ -6,7 +6,7 @@
 #include <cpp-patterns/messages/Event.hpp>
 
 
-class TestEvent : public patterns::messages::Event
+class TestEvent : public cpp_patterns::Event
 {
 public:
     explicit TestEvent(uint8_t id);
