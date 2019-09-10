@@ -1,68 +1,79 @@
 
 #define BOOST_TEST_DYN_LINK
 
+// 3TH PARTY INCLUDES
 #include <boost/test/unit_test.hpp>
 
-#include "helpers/TestContext.hpp"
-#include "helpers/test_state/FirstTestState.hpp"
-#include "helpers/test_state/SecondTestState.hpp"
+// PROJECT INCLUDES
+#include "cpp-patterns/state/Context.hpp"
+#include "helpers/TestState.hpp"
 
 BOOST_AUTO_TEST_SUITE(state_Context_tests)
 
+    // TODO : test ContextState
+    // TODO : test add event(int)
+    // TODO : test add event(EventPtr)
 
-    BOOST_AUTO_TEST_CASE(state_Context_test_currentStateIs)
+    BOOST_AUTO_TEST_CASE(ENTRY_EXIT_ACTION)
     {
-        TestContextPtr testContextPtr = std::make_shared<TestContext>();
-        testContextPtr->setStartState();
+        bool entryActionGotCalled = false;
+        bool exitActionGotCalled = false;
 
-        BOOST_CHECK_EQUAL(testContextPtr->currentStateIs<FirstTestState>(), true);
-        BOOST_CHECK_EQUAL(testContextPtr->currentStateIs<SecondTestState>(), false);
+        auto entryActionFn = [&entryActionGotCalled]() { entryActionGotCalled = true; };
+        auto exitActionFn = [&exitActionGotCalled]() { exitActionGotCalled = true; };
+
+        TestStatePtr testState1 = std::make_shared<TestState>();
+        testState1->setExitActionFn(exitActionFn);
+
+        TestStatePtr testState2 = std::make_shared<TestState>();
+        testState2->setEntryActionFn(entryActionFn);
+
+        cpp_patterns::Context stateMachine;
+        stateMachine.changeState(testState1);
+        stateMachine.changeState(testState2);
+
+        BOOST_CHECK(entryActionGotCalled);
+        BOOST_CHECK(exitActionGotCalled);
     }
 
 
-    BOOST_AUTO_TEST_CASE(state_Context_test_setStartState)
+    BOOST_AUTO_TEST_CASE(DO_ACTIVITY)
     {
-        TestContextPtr testContextPtr = std::make_shared<TestContext>();
-        testContextPtr->setStartState();
 
-        BOOST_CHECK(testContextPtr->currentStateIs<FirstTestState>());
+        bool doActivityGotCalled = false;
+
+        auto doActivityFn = [&doActivityGotCalled]() { doActivityGotCalled = true; };
+
+        TestStatePtr testState = std::make_shared<TestState>();
+        testState->setDoActivityFn(doActivityFn);
+
+        cpp_patterns::Context stateMachine;
+        stateMachine.changeState(testState);
+        stateMachine.run();
+
+        BOOST_CHECK(doActivityGotCalled);
     }
 
 
-    BOOST_AUTO_TEST_CASE(state_Context_test_run)
+    BOOST_AUTO_TEST_CASE(RUN)
     {
-        TestContextPtr testContextPtr = std::make_shared<TestContext>();
-        testContextPtr->setStartState();
+        cpp_patterns::Context stateMachine;
 
-        BOOST_ASSERT(testContextPtr->currentStateIs<FirstTestState>());
+        unsigned long handleEventCallCount = 0;
 
-        testContextPtr->scheduleEvent(TestEventType::GO_TO_SECOND_TEST_STATE_EVENT);
-        testContextPtr->run();
+        auto handleEventFn = [&handleEventCallCount]() { handleEventCallCount += 1; };
 
-        BOOST_CHECK(testContextPtr->currentStateIs<SecondTestState>());
+        TestStatePtr testStatePtr = std::make_shared<TestState>();
+        testStatePtr->setHandleEventFn(handleEventFn);
+        stateMachine.changeState(testStatePtr);
 
-        testContextPtr->scheduleEvent(TestEventType::GO_TO_FIRST_TEST_STATE_EVENT);
-        testContextPtr->run();
+        stateMachine.scheduleEvent(1);
+        stateMachine.run();
 
-        BOOST_CHECK(testContextPtr->currentStateIs<FirstTestState>());
-    }
+        stateMachine.scheduleEvent(1);
+        stateMachine.run();
 
-
-    BOOST_AUTO_TEST_CASE(state_Context_test_preempt)
-    {
-        TestContextPtr testContextPtr = std::make_shared<TestContext>();
-        testContextPtr->setStartState();
-
-        BOOST_ASSERT(testContextPtr->currentStateIs<FirstTestState>());
-
-        testContextPtr->scheduleEvent(TestEventType::PREEMPT_EVENTS_EVENT);
-        testContextPtr->scheduleEvent(TestEventType::GO_TO_SECOND_TEST_STATE_EVENT);
-        testContextPtr->scheduleEvent(TestEventType::GO_TO_FIRST_TEST_STATE_EVENT);
-        testContextPtr->scheduleEvent(TestEventType::GO_TO_SECOND_TEST_STATE_EVENT);
-
-        testContextPtr->run();
-
-        BOOST_CHECK(testContextPtr->currentStateIs<FirstTestState>());
+        BOOST_CHECK_EQUAL(handleEventCallCount, 2);
     }
 
 

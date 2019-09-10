@@ -3,11 +3,6 @@
 
 namespace cpp_patterns {
 
-    State::State()
-    {
-    }
-
-
     void State::entryAction()
     {
     }

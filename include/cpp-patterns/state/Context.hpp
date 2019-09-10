@@ -10,18 +10,21 @@
 
 namespace cpp_patterns {
 
-    template<typename T>
-    class Context
-        : public std::enable_shared_from_this<T>
+    // TODO : implement loop frequency
+    // TODO : set start state with template method
+
+    class Context // : public std::enable_shared_from_this<Type>
     {
     public:
+        Context() = default;
+
         virtual ~Context() = default;
 
         void run();
 
-        virtual void setStartState() = 0;
+        virtual void setStartState(const StatePtr& statePtr);
 
-        void setNewCurrentState(const StatePtr &newCurrentStatePtr);
+        void changeState(const StatePtr &newCurrentStatePtr);
 
         void scheduleEvent(const EventPtr &eventPtr);
 
@@ -29,15 +32,11 @@ namespace cpp_patterns {
 
         void preemptEvents();
 
-        template<typename S>
+        template<typename StateType>
         bool currentStateIs() const;
 
-    protected:
-        Context();
-
-        StatePtr currentStatePtr;
-
     private:
+        StatePtr currentStatePtr;
         std::queue<EventPtr> eventPtrs;
     };
 

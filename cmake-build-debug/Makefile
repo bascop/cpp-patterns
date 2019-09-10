@@ -641,113 +641,32 @@ test/singleton/test_utils/TestSingleton.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.s
 .PHONY : test/singleton/test_utils/TestSingleton.cpp.s
 
-test/state/helpers/TestContext.o: test/state/helpers/TestContext.cpp.o
+test/state/helpers/TestState.o: test/state/helpers/TestState.cpp.o
 
-.PHONY : test/state/helpers/TestContext.o
-
-# target to build an object file
-test/state/helpers/TestContext.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o
-.PHONY : test/state/helpers/TestContext.cpp.o
-
-test/state/helpers/TestContext.i: test/state/helpers/TestContext.cpp.i
-
-.PHONY : test/state/helpers/TestContext.i
-
-# target to preprocess a source file
-test/state/helpers/TestContext.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.i
-.PHONY : test/state/helpers/TestContext.cpp.i
-
-test/state/helpers/TestContext.s: test/state/helpers/TestContext.cpp.s
-
-.PHONY : test/state/helpers/TestContext.s
-
-# target to generate assembly for a file
-test/state/helpers/TestContext.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.s
-.PHONY : test/state/helpers/TestContext.cpp.s
-
-test/state/helpers/test_state/FirstTestState.o: test/state/helpers/test_state/FirstTestState.cpp.o
-
-.PHONY : test/state/helpers/test_state/FirstTestState.o
+.PHONY : test/state/helpers/TestState.o
 
 # target to build an object file
-test/state/helpers/test_state/FirstTestState.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o
-.PHONY : test/state/helpers/test_state/FirstTestState.cpp.o
+test/state/helpers/TestState.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestState.cpp.o
+.PHONY : test/state/helpers/TestState.cpp.o
 
-test/state/helpers/test_state/FirstTestState.i: test/state/helpers/test_state/FirstTestState.cpp.i
+test/state/helpers/TestState.i: test/state/helpers/TestState.cpp.i
 
-.PHONY : test/state/helpers/test_state/FirstTestState.i
-
-# target to preprocess a source file
-test/state/helpers/test_state/FirstTestState.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.i
-.PHONY : test/state/helpers/test_state/FirstTestState.cpp.i
-
-test/state/helpers/test_state/FirstTestState.s: test/state/helpers/test_state/FirstTestState.cpp.s
-
-.PHONY : test/state/helpers/test_state/FirstTestState.s
-
-# target to generate assembly for a file
-test/state/helpers/test_state/FirstTestState.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.s
-.PHONY : test/state/helpers/test_state/FirstTestState.cpp.s
-
-test/state/helpers/test_state/SecondTestState.o: test/state/helpers/test_state/SecondTestState.cpp.o
-
-.PHONY : test/state/helpers/test_state/SecondTestState.o
-
-# target to build an object file
-test/state/helpers/test_state/SecondTestState.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o
-.PHONY : test/state/helpers/test_state/SecondTestState.cpp.o
-
-test/state/helpers/test_state/SecondTestState.i: test/state/helpers/test_state/SecondTestState.cpp.i
-
-.PHONY : test/state/helpers/test_state/SecondTestState.i
+.PHONY : test/state/helpers/TestState.i
 
 # target to preprocess a source file
-test/state/helpers/test_state/SecondTestState.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.i
-.PHONY : test/state/helpers/test_state/SecondTestState.cpp.i
+test/state/helpers/TestState.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestState.cpp.i
+.PHONY : test/state/helpers/TestState.cpp.i
 
-test/state/helpers/test_state/SecondTestState.s: test/state/helpers/test_state/SecondTestState.cpp.s
+test/state/helpers/TestState.s: test/state/helpers/TestState.cpp.s
 
-.PHONY : test/state/helpers/test_state/SecondTestState.s
-
-# target to generate assembly for a file
-test/state/helpers/test_state/SecondTestState.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.s
-.PHONY : test/state/helpers/test_state/SecondTestState.cpp.s
-
-test/state/helpers/test_state/TestState.o: test/state/helpers/test_state/TestState.cpp.o
-
-.PHONY : test/state/helpers/test_state/TestState.o
-
-# target to build an object file
-test/state/helpers/test_state/TestState.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o
-.PHONY : test/state/helpers/test_state/TestState.cpp.o
-
-test/state/helpers/test_state/TestState.i: test/state/helpers/test_state/TestState.cpp.i
-
-.PHONY : test/state/helpers/test_state/TestState.i
-
-# target to preprocess a source file
-test/state/helpers/test_state/TestState.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.i
-.PHONY : test/state/helpers/test_state/TestState.cpp.i
-
-test/state/helpers/test_state/TestState.s: test/state/helpers/test_state/TestState.cpp.s
-
-.PHONY : test/state/helpers/test_state/TestState.s
+.PHONY : test/state/helpers/TestState.s
 
 # target to generate assembly for a file
-test/state/helpers/test_state/TestState.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.s
-.PHONY : test/state/helpers/test_state/TestState.cpp.s
+test/state/helpers/TestState.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp-patterns_test.dir/build.make CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestState.cpp.s
+.PHONY : test/state/helpers/TestState.cpp.s
 
 test/state/test_state_Context.o: test/state/test_state_Context.cpp.o
 
@@ -868,18 +787,9 @@ help:
 	@echo "... test/singleton/test_utils/TestSingleton.o"
 	@echo "... test/singleton/test_utils/TestSingleton.i"
 	@echo "... test/singleton/test_utils/TestSingleton.s"
-	@echo "... test/state/helpers/TestContext.o"
-	@echo "... test/state/helpers/TestContext.i"
-	@echo "... test/state/helpers/TestContext.s"
-	@echo "... test/state/helpers/test_state/FirstTestState.o"
-	@echo "... test/state/helpers/test_state/FirstTestState.i"
-	@echo "... test/state/helpers/test_state/FirstTestState.s"
-	@echo "... test/state/helpers/test_state/SecondTestState.o"
-	@echo "... test/state/helpers/test_state/SecondTestState.i"
-	@echo "... test/state/helpers/test_state/SecondTestState.s"
-	@echo "... test/state/helpers/test_state/TestState.o"
-	@echo "... test/state/helpers/test_state/TestState.i"
-	@echo "... test/state/helpers/test_state/TestState.s"
+	@echo "... test/state/helpers/TestState.o"
+	@echo "... test/state/helpers/TestState.i"
+	@echo "... test/state/helpers/TestState.s"
 	@echo "... test/state/test_state_Context.o"
 	@echo "... test/state/test_state_Context.i"
 	@echo "... test/state/test_state_Context.s"

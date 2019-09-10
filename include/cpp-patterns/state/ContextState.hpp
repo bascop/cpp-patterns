@@ -1,6 +1,6 @@
 
-#ifndef CPP_PATTERNS_STATE_H
-#define CPP_PATTERNS_STATE_H
+#ifndef CPP_PATTERNS_CONTEXTSTATE_H
+#define CPP_PATTERNS_CONTEXTSTATE_H
 
 #include <cpp-patterns/state/State.hpp>
 

@@ -61,6 +61,8 @@ Context.tpp
 ../include/cpp-patterns/state/Context.tpp
 
 ../include/cpp-patterns/state/Context.tpp
+Context.hpp
+../include/cpp-patterns/state/Context.hpp
 
 ../include/cpp-patterns/state/ContextState.hpp
 cpp-patterns/state/State.hpp

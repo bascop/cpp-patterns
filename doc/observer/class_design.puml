@@ -1,0 +1,17 @@
+
+@startuml
+
+set namespaceSeparator ::
+
+class "**//Notifier//**" as Notifier {
+    + addObserver(observer : Observer) : void
+    + notifyObservers() : void
+}
+
+class "**//Observer//**" as Observer {
+    //+ onNotification() : void//
+}
+
+Notifier -> Observer
+
+@enduml

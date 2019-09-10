@@ -68,7 +68,7 @@ CMakeFiles/cpp-patterns.dir/src/math.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/math.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/math.cpp -o CMakeFiles/cpp-patterns.dir/src/math.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/math.cpp -o CMakeFiles/cpp-patterns.dir/src/math.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/math.cpp.o.requires:
 
@@ -92,7 +92,7 @@ CMakeFiles/cpp-patterns.dir/src/messages/Event.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/messages/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/messages/Event.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/messages/Event.cpp -o CMakeFiles/cpp-patterns.dir/src/messages/Event.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/messages/Event.cpp -o CMakeFiles/cpp-patterns.dir/src/messages/Event.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/messages/Event.cpp.o.requires:
 
@@ -116,7 +116,7 @@ CMakeFiles/cpp-patterns.dir/src/messages/argument_holder/ArgumentHolder.cpp.i: c
 
 CMakeFiles/cpp-patterns.dir/src/messages/argument_holder/ArgumentHolder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/messages/argument_holder/ArgumentHolder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/messages/argument_holder/ArgumentHolder.cpp -o CMakeFiles/cpp-patterns.dir/src/messages/argument_holder/ArgumentHolder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/messages/argument_holder/ArgumentHolder.cpp -o CMakeFiles/cpp-patterns.dir/src/messages/argument_holder/ArgumentHolder.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/messages/argument_holder/ArgumentHolder.cpp.o.requires:
 
@@ -140,7 +140,7 @@ CMakeFiles/cpp-patterns.dir/src/observer/Notifier.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/observer/Notifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/observer/Notifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/observer/Notifier.cpp -o CMakeFiles/cpp-patterns.dir/src/observer/Notifier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/observer/Notifier.cpp -o CMakeFiles/cpp-patterns.dir/src/observer/Notifier.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/observer/Notifier.cpp.o.requires:
 
@@ -164,7 +164,7 @@ CMakeFiles/cpp-patterns.dir/src/observer/Observer.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/observer/Observer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/observer/Observer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/observer/Observer.cpp -o CMakeFiles/cpp-patterns.dir/src/observer/Observer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/observer/Observer.cpp -o CMakeFiles/cpp-patterns.dir/src/observer/Observer.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/observer/Observer.cpp.o.requires:
 
@@ -188,7 +188,7 @@ CMakeFiles/cpp-patterns.dir/src/singleton/Singleton.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/singleton/Singleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/singleton/Singleton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/singleton/Singleton.cpp -o CMakeFiles/cpp-patterns.dir/src/singleton/Singleton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/singleton/Singleton.cpp -o CMakeFiles/cpp-patterns.dir/src/singleton/Singleton.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/singleton/Singleton.cpp.o.requires:
 
@@ -212,7 +212,7 @@ CMakeFiles/cpp-patterns.dir/src/state/Context.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/state/Context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/state/Context.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/state/Context.cpp -o CMakeFiles/cpp-patterns.dir/src/state/Context.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/state/Context.cpp -o CMakeFiles/cpp-patterns.dir/src/state/Context.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/state/Context.cpp.o.requires:
 
@@ -236,7 +236,7 @@ CMakeFiles/cpp-patterns.dir/src/state/ContextState.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/state/ContextState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/state/ContextState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/state/ContextState.cpp -o CMakeFiles/cpp-patterns.dir/src/state/ContextState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/state/ContextState.cpp -o CMakeFiles/cpp-patterns.dir/src/state/ContextState.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/state/ContextState.cpp.o.requires:
 
@@ -260,7 +260,7 @@ CMakeFiles/cpp-patterns.dir/src/state/State.cpp.i: cmake_force
 
 CMakeFiles/cpp-patterns.dir/src/state/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-patterns.dir/src/state/State.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bas/Projects/cpp_patterns/src/state/State.cpp -o CMakeFiles/cpp-patterns.dir/src/state/State.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -StateType /home/bas/Projects/cpp_patterns/src/state/State.cpp -o CMakeFiles/cpp-patterns.dir/src/state/State.cpp.s
 
 CMakeFiles/cpp-patterns.dir/src/state/State.cpp.o.requires:
 

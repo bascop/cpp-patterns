@@ -12,16 +12,16 @@ namespace cpp_patterns {
     public:
         virtual ~State() = default;
 
-        virtual void doActivity();
-
         virtual void entryAction();
+
+        virtual void doActivity();
 
         virtual void exitAction();
 
         virtual bool handleEvent(const EventPtr &eventPtr);
 
     protected:
-        State();
+        State() = default;
     };
 
 

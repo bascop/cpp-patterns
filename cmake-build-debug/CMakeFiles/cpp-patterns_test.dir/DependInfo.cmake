@@ -13,10 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/bas/Projects/cpp_patterns/test/observer/test_observer_Notifier.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/observer/test_observer_Notifier.cpp.o"
   "/home/bas/Projects/cpp_patterns/test/singleton/test_singleton_Singleton.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/singleton/test_singleton_Singleton.cpp.o"
   "/home/bas/Projects/cpp_patterns/test/singleton/test_utils/TestSingleton.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/singleton/test_utils/TestSingleton.cpp.o"
-  "/home/bas/Projects/cpp_patterns/test/state/helpers/TestContext.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestContext.cpp.o"
-  "/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/FirstTestState.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/FirstTestState.cpp.o"
-  "/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/SecondTestState.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/SecondTestState.cpp.o"
-  "/home/bas/Projects/cpp_patterns/test/state/helpers/test_state/TestState.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/helpers/test_state/TestState.cpp.o"
+  "/home/bas/Projects/cpp_patterns/test/state/helpers/TestState.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/helpers/TestState.cpp.o"
   "/home/bas/Projects/cpp_patterns/test/state/test_state_Context.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/test_state_Context.cpp.o"
   "/home/bas/Projects/cpp_patterns/test/state/test_state_ContextState.cpp" "/home/bas/Projects/cpp_patterns/cmake-build-debug/CMakeFiles/cpp-patterns_test.dir/test/state/test_state_ContextState.cpp.o"
   )

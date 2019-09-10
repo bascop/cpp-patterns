@@ -1,0 +1,12 @@
+
+@startuml
+
+class Context
+class State
+class Event
+
+Context --> Event
+Context --> State
+State <|-- ContextState
+
+@enduml
