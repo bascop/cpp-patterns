@@ -152,14 +152,20 @@ This repository provides tested implementations of the most common design patter
 </table>
 
 
-## Usage
+## Dependencies
+* Boost
+
+
+## Installation
+
 1. Clone the repository
-1. <code>cd</code> into the repository
-1. <code>mkdir build && cd build</code>
-1. <code>cmake -DCMAKE_BUILD_TYPE=RELEASE ..</code>
-1. <code>sudo cmake --build . --target install</code>
-1. place <code>find_package(cpp-patterns REQUIRED)</code> into the CMakeLists.txt file of your project.
-1. Now you can <code>#include <cpp_patterns/...></code>
+1. <code>cd</code> into the local repository directory
+1. Run <code>sudo ./install.sh</code> to build and install
+
+## Usage
+
+1. place <code>find_package(cpp_patterns REQUIRED)</code> into the CMakeLists.txt file of your project.
+1. Now you can include headers like <code>#include <cpp_patterns/...></code>
 
 
 ## References
