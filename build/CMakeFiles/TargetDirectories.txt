@@ -1,7 +1,0 @@
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/install/strip.dir
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/edit_cache.dir
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/cpp-patterns.dir
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/list_install_components.dir
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/install/local.dir
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/rebuild_cache.dir
-/home/bas/Projects/cpp_patterns/build/CMakeFiles/install.dir

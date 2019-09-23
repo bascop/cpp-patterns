@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.8)
 
-PROJECT(cpp-patterns
+PROJECT(cpp_patterns
         VERSION 0.0.1 LANGUAGES CXX)
 
 ADD_COMPILE_OPTIONS(
@@ -22,10 +22,13 @@ FILE(GLOB_RECURSE ${PROJECT_NAME}_TPPS
 FILE(GLOB_RECURSE ${PROJECT_NAME}_SRCS
         src/*.cpp)
 
-ADD_LIBRARY(${PROJECT_NAME} SHARED
+SET(${PROJECT_NAME}_files
         ${${PROJECT_NAME}_HDRS}
         ${${PROJECT_NAME}_TPPS}
         ${${PROJECT_NAME}_SRCS})
+
+ADD_LIBRARY(${PROJECT_NAME} SHARED
+        ${${PROJECT_NAME}_files})
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME}
         ${Boost_LIBRARIES})
@@ -47,22 +50,11 @@ INSTALL(
 
 INSTALL(
         EXPORT ${PROJECT_NAME}-config
-        NAMESPACE ${PROJECT_NAME}::
         DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME})
 
 INSTALL(
         DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/include/
-        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
-# TODO : move this section (test section) to seperate CMakeLists.txt file inside test/ folder.
 
-file(GLOB_RECURSE ${PROJECT_NAME}_test_SRCS
-        test/*.cpp
-        test/*.hpp)
-
-add_executable(${PROJECT_NAME}_test
-        ${${PROJECT_NAME}_test_SRCS})
-
-target_link_libraries(${PROJECT_NAME}_test
-        ${Boost_LIBRARIES}
-        ${PROJECT_NAME})
+add_subdirectory(tests)

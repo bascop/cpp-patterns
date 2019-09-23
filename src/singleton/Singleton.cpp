@@ -1,5 +1,5 @@
 
-#include <cpp-patterns/singleton/Singleton.hpp>
+#include <cpp_patterns/singleton/Singleton.hpp>
 
 namespace patterns {
     namespace singleton {

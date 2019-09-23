@@ -1,0 +1,13 @@
+#https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+#https://zed0.co.uk/clang-format-configurator/
+
+BasedOnStyle: Google
+ColumnLimit: 100
+IndentWidth: 4
+
+MaxEmptyLinesToKeep: 2
+BreakBeforeBraces: Allman
+FixNamespaceComments: false
+NamespaceIndentation: All
+SpacesBeforeTrailingComments: 1
+AccessModifierOffset: -4

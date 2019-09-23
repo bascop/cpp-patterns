@@ -1,0 +1,23 @@
+
+@startuml
+
+namespace cpp_patterns {
+    namespace chain {
+
+        class StampedArgumentHolder {
+
+        }
+
+        class Link {
+            - successorPtr : LinkPtr
+            + call(request StampedArgumentHolder)
+            - callSuccessor(request : StampedArgumentHolder)
+        }
+
+        Link -> Link
+        StampedArgumentHolder <.. Link
+
+    }
+}
+
+@enduml

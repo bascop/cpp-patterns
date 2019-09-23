@@ -1,42 +1,43 @@
 
-#include <cpp-patterns/observer/Notifier.hpp>
+#include <cpp_patterns/observer/Notifier.hpp>
 
 namespace cpp_patterns {
+    
+    Notifier::Notifier()
+        : observerPtrArray()
+    {
+    }
+    
+    
+    Notifier::Notifier(const ObserverPtr &observerPtr)
+        : observerPtrArray({observerPtr})
+    {
+    }
+    
+    
+    Notifier::Notifier(const ObserverPtrArray &observerPtrArray)
+        : observerPtrArray(observerPtrArray)
+    {
+    }
 
+    
     void Notifier::addObserverPtr(const ObserverPtr &observerPtr)
     {
         if (observerPtr == nullptr)
         {
-            return; // TODO : throw warning
+            throw std::invalid_argument("Observer can not be nullptr");
         }
 
         observerPtrArray.push_back(observerPtr);
     }
 
 
-    void Notifier::notifyObservers(const EventPtr &eventPtr)
+    void Notifier::notifyObservers(const Notification &notification) const
     {
         for (const ObserverPtr &observerPtr : observerPtrArray)
         {
-            notifyObserver(observerPtr, eventPtr);
+            observerPtr->onNotification(notification);
         }
-    }
-
-
-    void Notifier::notifyObservers()
-    {
-        notifyObservers(nullptr);
-    }
-
-
-    void Notifier::notifyObserver(const ObserverPtr &observerPtr, const EventPtr &eventPtr)
-    {
-        if (observerPtr == nullptr)
-        {
-            return; // TODO : throw warning
-        }
-
-        observerPtr->onNotification(eventPtr);
     }
 
 
@@ -44,5 +45,5 @@ namespace cpp_patterns {
     {
         return observerPtrArray.size();
     }
-
+    
 }

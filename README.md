@@ -1,6 +1,8 @@
 
 # cpp-patterns
 
+This repository provides tested implementations of the most common design pattern. Note that the api is currently unstable since this repository is under heavy development.
+
 <!--<table>
     <tr>
         <th>Build</th>
@@ -157,7 +159,7 @@
 1. <code>cmake -DCMAKE_BUILD_TYPE=RELEASE ..</code>
 1. <code>sudo cmake --build . --target install</code>
 1. place <code>find_package(cpp-patterns REQUIRED)</code> into the CMakeLists.txt file of your project.
-1. Now you can <code>#include <cpp-patterns/...></code>
+1. Now you can <code>#include <cpp_patterns/...></code>
 
 
 ## References

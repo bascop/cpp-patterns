@@ -1,5 +1,5 @@
 
-#include <cpp-patterns/state/Context.hpp>
+#include <cpp_patterns/state/Context.hpp>
 
 namespace cpp_patterns {
 

@@ -1,0 +1,17 @@
+
+@startuml
+
+set namespaceSeparator ::
+
+class "**//Component//**" as Component {
+    + operator() : void
+}
+
+class "**//Decorator//**" as Decorator {
+    - component : Component
+    + operator() : void
+}
+
+Decorator <|-- Component
+
+@enduml
