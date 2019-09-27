@@ -10,24 +10,26 @@
 
 namespace cpp_patterns {
     
-    class Notifier
+    class Notifier // TODO : the goal is to use templates for NotificationPtr if possible
     {
     public:
         Notifier();
         
-        explicit Notifier(const ObserverPtr& observerPtr);
-        
-        explicit Notifier(const ObserverPtrArray& observerPtrArray);
-
         virtual ~Notifier() = default;
 
         void addObserverPtr(const ObserverPtr &observerPtr);
 
         void notifyObservers(const Notification &notification) const;
+        
+        // TODO : remove notifier
 
         size_t getNumberOfObservers() const;
 
     private:
+        void validateObserverPtr(const ObserverPtr& observerPtr) const;
+        
+        void validateObserverPtrArray(const ObserverPtrArray& observerPtrArray) const;
+        
         ObserverPtrArray observerPtrArray;
     };
 

@@ -11,35 +11,35 @@
 // PROJECT INCLUDES
 #include <cpp_patterns/argument_holder/ArgumentHolder.hpp>
 
-namespace cpp_patterns {
-
+namespace cpp_patterns
+{
     typedef ArgumentHolder Request;
-    typedef ArgumentHolderPtr RequestPtr;
+
     
-    class Link
+    class Link // TODO : the goal is to use templates for RequestPtr and successorPtr if possible
     {
     public:
         using SuccessorPtr = std::shared_ptr<Link>;
-        
+
         virtual ~Link() = default;
 
-        void call(RequestPtr requestPtr);
+        void call(const Request &request);
         
+        void call();
+
     protected:
-        explicit Link(const SuccessorPtr& successorPtr);
-    
-        virtual void validate(RequestPtr requestPtr) const;
-    
-        virtual RequestPtr handle(RequestPtr requestPtr) = 0;
+        explicit Link(const SuccessorPtr &successorPtr);
+
+        virtual Request handle(const Request &request) = 0;
 
     private:
-        void callSuccessor(RequestPtr requestPtr);
-    
+        void callSuccessor(const Request &request);
+
         SuccessorPtr successorPtr;
     };
+
     
     typedef std::shared_ptr<Link> LinkPtr;
-
 }
 
 #endif

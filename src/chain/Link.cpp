@@ -10,27 +10,25 @@ namespace cpp_patterns
     }
     
     
-    void Link::call(RequestPtr requestPtr)
+    void Link::call(const Request &request)
     {
-        validate(requestPtr);
+        Request nextRequest = handle(request);
         
-        RequestPtr nextRequestPtr = handle(requestPtr);
-        
-        callSuccessor(nextRequestPtr);
+        callSuccessor(nextRequest);
     }
     
     
-    void Link::callSuccessor(RequestPtr requestPtr)
+    void Link::call()
+    {
+        call(Request());
+    }
+    
+    
+    void Link::callSuccessor(const Request &request)
     {
         if (successorPtr == nullptr) return;
 
-        successorPtr->call(requestPtr);
-    }
-    
-    
-    void Link::validate(RequestPtr /*requestPtr*/) const
-    {
-        // by default a request is valid, so no throws here
+        successorPtr->call(request);
     }
 
 }

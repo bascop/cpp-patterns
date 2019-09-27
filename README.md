@@ -168,6 +168,11 @@ This repository provides tested implementations of the most common design patter
 1. Now you can include headers like <code>#include <cpp_patterns/...></code>
 
 
+## TODOs
+* Add doxygen documentation
+* Add examples
+
+
 ## References
 
 * Design patterns Elements of reusable object-oriented software Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides

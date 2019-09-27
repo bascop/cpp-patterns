@@ -7,26 +7,11 @@ namespace cpp_patterns {
         : observerPtrArray()
     {
     }
-    
-    
-    Notifier::Notifier(const ObserverPtr &observerPtr)
-        : observerPtrArray({observerPtr})
-    {
-    }
-    
-    
-    Notifier::Notifier(const ObserverPtrArray &observerPtrArray)
-        : observerPtrArray(observerPtrArray)
-    {
-    }
 
     
     void Notifier::addObserverPtr(const ObserverPtr &observerPtr)
     {
-        if (observerPtr == nullptr)
-        {
-            throw std::invalid_argument("Observer can not be nullptr");
-        }
+        validateObserverPtr(observerPtr);
 
         observerPtrArray.push_back(observerPtr);
     }
@@ -46,4 +31,22 @@ namespace cpp_patterns {
         return observerPtrArray.size();
     }
     
+    
+    void Notifier::validateObserverPtr(const ObserverPtr& observerPtr) const
+    {
+        if (observerPtr == nullptr) // TODO : implement as warning so that program can continue
+        {
+            throw std::invalid_argument("Can not add nullptr as ObserverPtr to Notifier");
+        }
+    }
+    
+    
+    void Notifier::validateObserverPtrArray(const ObserverPtrArray& observerPtrArray) const
+    {
+        for (const ObserverPtr& observerPtr : observerPtrArray)
+        {
+            validateObserverPtr(observerPtr);
+        }
+    }
+
 }

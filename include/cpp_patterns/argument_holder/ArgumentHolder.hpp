@@ -41,6 +41,8 @@ namespace cpp_patterns {
         template<typename ArgumentValue>
         ArgumentValue getArgument(const ArgumentKey& key) const;
     
+        bool hasArgument(const ArgumentKey& key) const;
+    
         Stamp getStamp() const;
 
         size_t count() const;

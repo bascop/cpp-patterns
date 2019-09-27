@@ -29,7 +29,7 @@ BOOST_AUTO_TEST_SUITE(Link)
         LinkPtr chainLink2Ptr = std::make_shared<TestLink>(nullptr, onRequestFn2);
         LinkPtr chainLink1Ptr = std::make_shared<TestLink>(chainLink2Ptr, onRequestFn1);
 
-        chainLink1Ptr->call(std::make_shared<Request>());
+        chainLink1Ptr->call(Request());
 
         BOOST_CHECK(chainLink1GotCalled);
         BOOST_CHECK(chainLink2GotCalled);

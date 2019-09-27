@@ -19,7 +19,7 @@ public:
 
     virtual ~TestLink() = default;
 
-    cpp_patterns::RequestPtr handle(cpp_patterns::RequestPtr requestPtr) final;
+    cpp_patterns::Request handle(const cpp_patterns::Request &request) final;
 
 private:
     OnOperateFn onOperateFn;

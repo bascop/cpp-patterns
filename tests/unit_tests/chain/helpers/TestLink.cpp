@@ -11,7 +11,7 @@ TestLink::TestLink(
 }
 
 
-cpp_patterns::RequestPtr TestLink::handle(cpp_patterns::RequestPtr /*requestPtr*/)
+cpp_patterns::Request TestLink::handle(const cpp_patterns::Request& /*request*/)
 {
     if (onOperateFn != nullptr)
     {
